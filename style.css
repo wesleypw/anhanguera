@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --cor-principal: rgba(243, 163, 134, 0.164) ;
+    --cor-destaque: darkorange;
+}
+
+
+body{
+    
+    background-color:var(--cor-principal) ;
+    width: 100%;
+    height: 100%;
+
+}
+
+header{
+    height: 110px;
+}
+#logoCabeça{
+    height: 90px;
+    margin:8px 0 8px 100px ;
+
+}
+
+main{
+    
+    background-color: white;
+    max-width: 800px;
+    max-height: 800px;
+    margin: 20px;
+
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    text-shadow:0 0 4px black;
+    padding: 5px;
+}
+article{
+    padding: 20px;
+    margin: 10px;
+
+}
+article > h1 {
+color: var(--cor-destaque);
+font-size: 90px;
+text-align: center;
+}
+
+
+.historia{
+    color: rgba(0, 0, 0, 0.541);
+    text-align: center;
+    font-size: 15px;
+}
+footer{
+    margin-top: 40px;
+    background-color: black;
+}
+
